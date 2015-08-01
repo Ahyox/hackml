@@ -31,6 +31,6 @@ if(isset($_GET['email']) && isset($_GET['checkin']) && isset($_GET['behalf']))
 }
 else
 {
-		echo "Please enter email variable as GET";
+		echo "Please enter email,checkin,behalf as a GET variable as e.g email=xxx@gmail.com&checkin=2015-08-01%2000:00:00&behalf=0";
 }
 ?>
